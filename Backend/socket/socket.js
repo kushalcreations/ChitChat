@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
 	cors: {
-		origin: ["https://chitchat-final.vercel.app"], // http://13.234.255.71 //http://localhost:3000
+		origin: ["http://localhost:3000"], // http://13.234.255.71 // https://chitchat-final.vercel.app
 		methods: ["GET", "POST"],
 	},
 });
