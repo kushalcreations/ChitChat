@@ -9,7 +9,7 @@ export default defineConfig({
     host: '0.0.0.0',
     proxy: {
       "/api": {
-        target: "http://localhost:5000", //  http://3.111.127.237 // https://chitchat-yrsi.onrender.com
+        target: "https://chitchat-backend-mgxj.onrender.com", //  http://3.111.127.237 // http://localhost:5000
       },
     },
   },

@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
 
 	useEffect(() => {
 		if (authUser) {
-			const socket = io("http://localhost:5000", { //  http://3.111.127.237 // https://chitchat-yrsi.onrender.com
+			const socket = io("https://chitchat-backend-mgxj.onrender.com", { //  http://3.111.127.237 // http://localhost:5000
 				query: {
 					userId: authUser._id,
 				},
